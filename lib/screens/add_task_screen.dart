@@ -24,7 +24,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
   }
 
   @override
-  vpid dispose() {
+  void dispose() {
     _dateController.dispose();
     super.dispose();
   }
